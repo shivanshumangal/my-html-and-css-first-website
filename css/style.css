@@ -1,182 +1,76 @@
+/* resetes */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color:#ededed;
-}
-.mostupper{
     width: 100%;
-    height: 179px;
-    margin-bottom: 50px;
-    background-color: #4c8f96;
+    height: 100%;
+    background-color: lawngreen;
 }
-.navigation-area{ 
-    width: 950px;
-    height: 179px;
-   margin: 0 auto;   
-}
-.navigation-area h1{
-    color: #fff;
-    background-color: #212740;
-    float: left;
-    padding: 17PX 24px;
-    font-family: 'Roboto Condensed', sans-serif;
-    letter-spacing: 3px;
-    font-size: 44px;
-    position: relative;
-    top: 96px;
-    left: 30px;
-}
-.navigation-area ul{
-    float: right;
-}
-li{
-    float: right;
-    list-style-type: none;
-}
-a{
-    color: whitesmoke;
-    text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
-    border-radius: 5px;
-    background-color: #1b2130;
-    margin-left: 18px;
-    padding: 7px;
-    position: relative;
-    top: 109px;
-    right: 300px;
-   
-}
-.upper{
-    width: 1000px;
+.intensifyfull{
+    background-color: #ffffff;
     margin: 0 auto;
+    width: 60%;
+    height: 300vh;
+    overflow: auto;
 }
-.header{
-    height: 348px;
-    width: 950px;
-    background-color: white;
-    border: 5px solid #5fb3bd;
-    margin: 0px auto;
-}
-.header img{
-    height: 348px;
+/* navigation starts */
+.naviicon{
     float: left;
- 
-}
-.header h1{
-   float: right;
-   margin-right: 204px;
-   margin-top: 105px;
-   text-transform: capitalize;
-   font-family: 'Lobster', cursive;
-}
-.expert{
-   height: 348px;
-    width: 950px; 
-    margin: 20px auto;
-}
-.experts{
-    width: 235px;
-    height: 348px;
-    float: left;
-    margin-left: 2px;
-}
-.experts img{
-    margin-top: 4px;
+    margin-top: 20px;
     margin-left: 10px;
-    border: 4px solid #5fb3bd;
-    box-shadow: 5px 10px 10px #888888;
+    color: #dee1e3;
 }
-.experts h3{
-    text-transform: capitalize;
-    margin-left: 9px;
-}
-.experts p{
-    line-height: 27px;
-}
-.lower{
-    width: 1000px;
-    height: 800px;
-    margin: 0 auto;
-}
-.whiter{
-    width: 468px;
-    height: 700px;
-    margin-top: 84px;
-    background-color: white;
-    border: 5px groove #5fb3bd;
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
     float: left;
+    color: #f6755e;
+    margin-top: 5px;
+    margin-left: 360px;
+}
+.login{
+    border: 2px solid #dee1e3;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.login a{
+    text-decoration: none;
+    color: #727a82;
+    padding: 5px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
   
 }
-.right1{
-    width: 500px;
-    height: 350px;
-    margin-top: 84px;
-    float:right;
-    border: 5px groove #5fb3bd;
-    background-color: #519194;
+/* navigation ends */
+/* banner starts */
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-top: 61px;
+    height: 341px;
+    clear: both;
+    text-align: center;
 }
-.right2{
-    width: 500px;
-    height: 300px;
-    margin-top: 15px;
-    float:right;
-    border: 5px groove #5fb3bd;
-    background-color: #519194;
+.textarea{
+    width: 408px;
+    height: 90px;
+    position: relative;
+    top: 29%;
+    left: 27%;
+    text-align: center;
 }
-.whiter h2{
-    margin-top: -17px ;
-    margin-left: 28px;
-    color: white;
-    letter-spacing: 5px;
-    font-family: 'PT Sans', sans-serif;
-    display: inline;
-    text-transform: capitalize;
-    padding: 5px;
-    background-color: black;
-}
-.whiter img{
-    display: block;
-    margin-left: 18px;
-    margin-top: 28px;
-}
-.whiter p{
-    margin-left: 17px;
-    margin-top: 36px;
-    line-height: 29px;
-}
-.right1 h2{
-    margin-top: -17px ;
-    margin-left: 28px;
-    color: white;
-    letter-spacing: 5px;
-    font-family: 'PT Sans', sans-serif;
-    display: inline;
-    text-transform: capitalize;
-    padding: 5px;
-    background-color: black;
-}
-.right1 p{
-    margin-left: 17px;
-    margin-top: 36px;
-    color: #eaeedc;
-    line-height: 24px;
-}
-.right1 h3{
-    float: right;
+.textarea h1{
+    color: #25a2c3;
     font-family: 'Lato', sans-serif;
-    margin-right: 19px;
-    color:#eaeedc;
-    text-transform: capitalize;
 }
-.right2 img{
-    float: left;
-    margin-top: -11px;
-    height: 320px;
-    width: 221px;
+.textarea h4{
+    color: #767d85;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    margin-top: 10px;
 }
-.right2 p{
-    line-height: 36px;
-    margin-top: 60PX;
-    font-size: 21px;
-    color: #eaeedc;
-    text-transform: capitalize;
-    font-family: 'Secular One', sans-serif;
-}
+/* banner ends */
